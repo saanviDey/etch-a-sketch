@@ -26,7 +26,17 @@ enterButton.addEventListener('click', (event) => {
 
 });
 
+function randomizeNumber() {
+    return Math.floor(Math.random() * 256);
+}
+
 container.addEventListener('mouseover', changeColor);
 function changeColor(e) {
-    e.target.style.background = "orange";
+    if (e.target.classList.contains('square')) {
+        const r = randomizeNumber();
+        const g = randomizeNumber();
+        const b = randomizeNumber();
+
+        e.target.style.background = `rgb(${r}, ${g}, ${b})`;
+    }
 }

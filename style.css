@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: pink;
 }
 #container {
     display: flex;
@@ -13,7 +14,7 @@ body {
 }
 
 .square {
-    background: pink;
+    background: white;
     border: none;
     outline: 1px solid black;
     box-sizing: border-box;
