@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    margin: 25px;
+}
+
+.square {
+    background: pink;
+    border: none;
+    outline: 1px solid black;
+    box-sizing: border-box;
+    /*flex-basis: calc(100% / 16);
+    height: calc(100%/16);*/
+}
