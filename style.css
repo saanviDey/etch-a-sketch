@@ -17,6 +17,4 @@ body {
     border: none;
     outline: 1px solid black;
     box-sizing: border-box;
-    /*flex-basis: calc(100% / 16);
-    height: calc(100%/16);*/
 }
